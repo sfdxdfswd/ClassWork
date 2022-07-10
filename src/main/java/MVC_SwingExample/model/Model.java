@@ -1,2 +1,4 @@
-package MVC_SwingExample.model;public class Model {
+package MVC_SwingExample.model;
+
+public class Model {
 }

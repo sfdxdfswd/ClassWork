@@ -1,4 +1,4 @@
-package MVC_SwingExample;
+package MVC_SwingExample.view;
 import javax.swing.*;
 import java.awt.*;
 
