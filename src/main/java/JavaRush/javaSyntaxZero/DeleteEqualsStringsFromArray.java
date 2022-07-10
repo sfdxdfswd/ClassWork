@@ -24,7 +24,7 @@ class DeleteEqualsStringsFromArray {
         System.out.println("Enter 6 words, identical words will be replaced by null");
         //Заполняем массив строками
         for (int i = 0; i < strings.length; i++) {
-            System.out.print("Word" + (i + 1) + ": ");
+            System.out.print("Word " + (i + 1) + ": ");
             strings[i] = scn.nextLine();
         }
 
