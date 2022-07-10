@@ -12,13 +12,11 @@ import java.util.Scanner;
  */
 
 class DeleteEqualsStringsFromArray {
-  private static String[] strings;
-  private static String[] newStrings;
 
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
-        strings = new String[6];
+        String[] strings = new String[6];
         int newStringsLen = 0;
         int newStringsIndex = 0;
         boolean delEl = false;
@@ -51,8 +49,8 @@ class DeleteEqualsStringsFromArray {
         }
 
         System.out.println("Result:");
-        for (int i = 0; i < strings.length; i++) {
-            System.out.print(strings[i] + "  ");
+        for (String string : strings) {
+            System.out.print(string + "  ");
         }
 
         //После замены одинаковых значений на null, значения не равные null будут помещены
@@ -65,7 +63,7 @@ class DeleteEqualsStringsFromArray {
         if (newStringsLen == 0) {
             System.out.println("\nAll words was deleted");
         } else {
-            newStrings = new String[newStringsLen];
+            String[] newStrings = new String[newStringsLen];
            //Элементы не равные null помещаются в новый массив.
             for (String str : strings) {
                 if (str != null) {
