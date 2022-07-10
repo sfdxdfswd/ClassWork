@@ -8,7 +8,7 @@ public class UserView extends JFrame {
     private JTextArea text;
     private JButton button;
     private JLabel info;
-    private Controller controller;
+    private final Controller controller;
 
     public UserView(Controller controller) {
         this.controller = controller;
@@ -27,24 +27,31 @@ public class UserView extends JFrame {
 
         button.addActionListener(e -> {
             int pin;
-            String texPin = this.text.getText();
-            pin = Integer.parseInt(texPin);
-            info.setText("Got it: " + pin + " Waiting...");
+            String textPin = this.text.getText();
+            text.setText("");
 
-            Thread thread = new Thread(() -> {
-                boolean result;
-                result = controller.checkPin(pin);
-                String resultMessage;
-                if (result) {
-                    resultMessage = "Right";
-                } else {
-                    resultMessage = "Wrong, try again";
-                }   result = controller.checkPin(pin);
+            try {
+                pin = Integer.parseInt(textPin);
+                info.setText("Got it: " + pin + " Waiting...");
 
-                info.setText(resultMessage);
-            });
-            thread.start();
+                Thread thread = new Thread(() -> {
+                    button.setEnabled(false);
+                    boolean result;
+                    result = controller.checkPin(pin);
+                    String resultMessage;
+                    if (result) {
+                        resultMessage = "Right";
+                    } else {
+                        resultMessage = "Wrong, try again";
+                    }
 
+                    info.setText(resultMessage);
+                    button.setEnabled(true);
+                });
+                thread.start();
+            } catch (NumberFormatException e1) {
+                info.setText("Only numbers allowed.");
+            }
         });
 
         SwingUtilities.invokeLater(() -> setVisible(true));
