@@ -29,8 +29,22 @@ public class UserView extends JFrame {
             int pin;
             String texPin = this.text.getText();
             pin = Integer.parseInt(texPin);
-            info.setText("Arrrrgghhh!!!");
-            controller.checkPin(pin);
+            info.setText("Got it: " + pin + " Waiting...");
+
+            Thread thread = new Thread(() -> {
+                boolean result;
+                result = controller.checkPin(pin);
+                String resultMessage;
+                if (result) {
+                    resultMessage = "Right";
+                } else {
+                    resultMessage = "Wrong, try again";
+                }   result = controller.checkPin(pin);
+
+                info.setText(resultMessage);
+            });
+            thread.start();
+
         });
 
         SwingUtilities.invokeLater(() -> setVisible(true));

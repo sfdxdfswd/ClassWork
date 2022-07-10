@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="45cbc796-39f0-4249-b98e-af39d46ae86d" name="Changes" comment="//">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/view/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/view/UserView.java" afterDir="false" />
     </list>
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657458238626</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="//">
+      <created>1657463632358</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657463632358</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
