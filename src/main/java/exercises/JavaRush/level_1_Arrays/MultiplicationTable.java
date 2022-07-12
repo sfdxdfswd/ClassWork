@@ -1,4 +1,15 @@
-package JavaRush.javaSyntaxZero;
+package exercises.JavaRush.level_1_Arrays;
+
+/*
+ * Проинициализируй массив MULTIPLICATION_TABLE значением new int[10][10],
+ * заполни его таблицей умножения и выведи в консоли в следующем виде:
+ *   1 2 3 4 …
+ *   2 4 6 8 …
+ *   3 6 9 12 …
+ *   4 8 12 16 …
+ *   …
+ * Числа в строке разделены пробелом.
+ */
 
 public class MultiplicationTable {
 
@@ -25,6 +36,5 @@ public class MultiplicationTable {
                 System.out.println();
             }
         }
-
     }
 }

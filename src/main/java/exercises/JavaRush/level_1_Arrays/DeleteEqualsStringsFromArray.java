@@ -1,4 +1,4 @@
-package JavaRush.javaSyntaxZero;
+package exercises.JavaRush.level_1_Arrays;
 import java.util.Scanner;
 
 /**
