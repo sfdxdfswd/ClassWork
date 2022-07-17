@@ -1,14 +1,15 @@
 package exercises.JavaRush.level_1_Arrays;
+
 import java.util.Scanner;
 
 /**
- *   Удаляем одинаковые строки в массиве.
- *   В этой задаче тебе нужно:
- *   Считать 6 строк и заполнить ими массив strings.
- *   Удалить повторяющиеся строки из массива strings, заменив их на null (null должны быть не строками "null").
- *
- *   #отсебятина#: Создать новый массив newStrings хранящий значения strings не равные null,
- *   длина нового массива равна количесву таких значений.
+ * Удаляем одинаковые строки в массиве.
+ * В этой задаче тебе нужно:
+ * Считать 6 строк и заполнить ими массив strings.
+ * Удалить повторяющиеся строки из массива strings, заменив их на null (null должны быть не строками "null").
+ * <p>
+ * #отсебятина#: Создать новый массив newStrings хранящий значения strings не равные null,
+ * длина нового массива равна количесву таких значений.
  */
 
 class DeleteEqualsStringsFromArray {
@@ -55,7 +56,7 @@ class DeleteEqualsStringsFromArray {
 
         //После замены одинаковых значений на null, значения не равные null будут помещены
         //в новый массив. Длина нового массива будет равна длине исходного минус количество null элементов.
-        for (String str: strings) {
+        for (String str : strings) {
             if (str != null)
                 newStringsLen++;
         }
@@ -64,7 +65,7 @@ class DeleteEqualsStringsFromArray {
             System.out.println("\nAll words was deleted");
         } else {
             String[] newStrings = new String[newStringsLen];
-           //Элементы не равные null помещаются в новый массив.
+            //Элементы не равные null помещаются в новый массив.
             for (String str : strings) {
                 if (str != null) {
                     newStrings[newStringsIndex] = str;

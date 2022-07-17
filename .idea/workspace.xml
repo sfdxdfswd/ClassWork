@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45cbc796-39f0-4249-b98e-af39d46ae86d" name="Changes" comment="...">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/ArraysClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Other/Triples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/PracticalTasksInJava/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/PracticalTasksInJava/Task_1_0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/view/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC_SwingExample/view/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/ArrayFillMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/ArrayFillMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/ArraysClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/ArraysClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/DeleteEqualsStringsFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/DeleteEqualsStringsFromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/RaggedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/RaggedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/TriangleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/JavaRush/level_1_Arrays/TriangleArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +48,16 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArraysClass">
-    <configuration name="ArrayFillMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.JavaRush.level_1_Arrays.ArrayFillMethod" />
+  <component name="RunManager" selected="Application.Triples">
+    <configuration name="AlphabeticalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.Other.AlphabeticalOrder" />
       <module name="ClassWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.JavaRush.level_1_Arrays.*" />
+          <option name="PATTERN" value="exercises.Other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.JavaRush.level_1_Arrays.MultiplicationTable" />
+    <configuration name="Task_1_0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.PracticalTasksInJava.Task_1_0" />
       <module name="ClassWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.JavaRush.level_1_Arrays.*" />
+          <option name="PATTERN" value="exercises.PracticalTasksInJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaggedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.JavaRush.level_1_Arrays.RaggedArray" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.Test" />
       <module name="ClassWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.JavaRush.level_1_Arrays.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.JavaRush.level_1_Arrays.TriangleArray" />
+    <configuration name="Triples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.Other.Triples" />
       <module name="ClassWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.JavaRush.level_1_Arrays.*" />
+          <option name="PATTERN" value="exercises.Other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Triples" />
+        <item itemvalue="Application.AlphabeticalOrder" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Task_1_0" />
         <item itemvalue="Application.ArraysClass" />
-        <item itemvalue="Application.RaggedArray" />
-        <item itemvalue="Application.TriangleArray" />
-        <item itemvalue="Application.MultiplicationTable" />
-        <item itemvalue="Application.ArrayFillMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657639959562</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="...">
+      <created>1657735541462</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657735541462</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

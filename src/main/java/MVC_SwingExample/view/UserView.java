@@ -29,7 +29,7 @@ public class UserView extends JFrame {
             int pin;
             String textPin = this.text.getText();
             text.setText("");
-
+            //TODO перенести в контроллер
             try {
                 pin = Integer.parseInt(textPin);
                 info.setText("Got it: " + pin + " Waiting...");

@@ -1,5 +1,6 @@
 package exercises.JavaRush.level_1_Arrays;
-import  java.util.Arrays;
+
+import java.util.Arrays;
 
 /*
  * Некоторые из методов класса Arrays:
@@ -97,7 +98,7 @@ public class ArraysClass {
         //Так же с помощью метода Arrays.fill() можно заполнить определенным значением не весь массив, а его часть:
         int[] oneMoreArray = new int[10];
 
-        Arrays.fill(oneMoreArray,3, 6, 999);
+        Arrays.fill(oneMoreArray, 3, 6, 999);
         //Выведет: с помощью метода Arrays.fill() можно заполнить определенным значением не весь массив, а его часть:
         System.out.println(Arrays.toString(oneMoreArray) + "\n");
 

@@ -1,4 +1,5 @@
 package exercises.JavaRush.level_1_Arrays;
+
 import java.lang.Math;
 import java.util.Arrays;
 
@@ -12,7 +13,7 @@ public class RaggedArray {
         char[][] raggedArray = new char[24][];
 
         for (int i = 0; i < raggedArray.length; i++) {
-            arrLen = (int)(Math.random() * 81);
+            arrLen = (int) (Math.random() * 81);
             System.out.print(arrLen + "  ");
             raggedArray[i] = new char[arrLen];
         }

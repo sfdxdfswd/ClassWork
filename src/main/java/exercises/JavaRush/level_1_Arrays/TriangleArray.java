@@ -36,7 +36,7 @@ public class TriangleArray {
             for (int k = 0; k < result[i].length; k++) {
                 System.out.print(result[i][k] + " ");
             }
-            if (i < result.length -1) {
+            if (i < result.length - 1) {
                 System.out.println();
             }
         }
